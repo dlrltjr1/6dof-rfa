@@ -123,7 +123,7 @@ bash experiment_data/scenarios/run_tampering_test.sh
 ```bibtex
 @inproceedings{6dof-rfa-2026,
   title     = {6DoF-RFA: A Forensic Framework for ROS2-based Industrial 6-Axis Collaborative Robots},
-  author    = {[s]},
+  author    = {[]},
   booktitle = {Proceedings of the Korean Institute of Digital Forensics Conference},
   year      = {2026}
 }
