@@ -1,0 +1,37 @@
+{
+  "session_id": "20260527_082231",
+  "start_iso": "2026-05-27T08:22:31.301154",
+  "genesis_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "log_path": "/tmp/rofas/unified_log/unified_log_20260527_082231.jsonl",
+  "topics": [
+    [
+      "/joint_states",
+      "sensor_msgs/msg/JointState"
+    ],
+    [
+      "/end_effector_pose",
+      "geometry_msgs/msg/PoseStamped"
+    ],
+    [
+      "/task_label",
+      "std_msgs/msg/String"
+    ],
+    [
+      "/rofas/recon_error",
+      "std_msgs/msg/Float64"
+    ],
+    [
+      "/rofas/training_done",
+      "std_msgs/msg/Bool"
+    ],
+    [
+      "/rofas/anomaly_event",
+      "robot_forensics_msgs/msg/AnomalyEvent"
+    ],
+    [
+      "/rofas/forensic_snapshot",
+      "robot_forensics_msgs/msg/ForensicSnapshot"
+    ]
+  ],
+  "baseline_gids": []
+}

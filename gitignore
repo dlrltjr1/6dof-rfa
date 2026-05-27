@@ -1,0 +1,53 @@
+# ============================================================
+# AI-Hub Dataset (NOT redistributable per AI-Hub policy)
+# ============================================================
+# AI-Hub data redistribution is prohibited without prior agreement
+# with NIA. Users must download the dataset directly from AI-Hub.
+experiment_data/aihub_csv/
+
+# ============================================================
+# ROS2 build artifacts
+# ============================================================
+build/
+install/
+log/
+**/build/
+**/install/
+**/log/
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ============================================================
+# DLU runtime outputs (regenerated on every run)
+# ============================================================
+/tmp/rofas/
+unified_log_*.jsonl
+
+# ============================================================
+# IDE / OS
+# ============================================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Misc
+# ============================================================
+*.log
+*.bag
+*.db3
